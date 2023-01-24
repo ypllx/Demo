@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Sem",
+    "cars": [
+      {
+        "id": 101,
+        "name": "Audi"
+      },
+      {
+        "id": 102,
+        "name": "Volvo"
+      },
+      {
+        "id": 103,
+        "name": "BMW"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mike",
+    "cars": [
+      {
+        "id": 104,
+        "name": "Nissan"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Richard",
+    "cars": []
+  }
+]
