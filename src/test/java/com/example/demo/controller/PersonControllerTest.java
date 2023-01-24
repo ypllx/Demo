@@ -12,6 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -22,6 +23,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@EnableWebMvc
 @SpringBootTest(classes = {PersonDtoMapper.class, CarDtoMapper.class, PersonController.class})
 @AutoConfigureMockMvc
 class PersonControllerTest {
